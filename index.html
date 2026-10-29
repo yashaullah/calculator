@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hisaab - Calculator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <a class="logo" href="#">Hisaab<span>.</span></a>
+      <a class="back" href="../index.html">All projects</a>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="heading">Simple <span>Calculator</span></h1>
+
+    <div class="card calc-card">
+      <div class="card-inner">
+        <div class="screen">
+          <div id="prev"></div>
+          <div id="display">0</div>
+        </div>
+
+        <div class="keys">
+          <button data-action="clear" class="dark">AC</button>
+          <button data-action="delete" class="dark">DEL</button>
+          <button data-action="percent" class="dark">%</button>
+          <button data-op="÷" class="op">÷</button>
+
+          <button data-num="7">7</button>
+          <button data-num="8">8</button>
+          <button data-num="9">9</button>
+          <button data-op="×" class="op">×</button>
+
+          <button data-num="4">4</button>
+          <button data-num="5">5</button>
+          <button data-num="6">6</button>
+          <button data-op="−" class="op">−</button>
+
+          <button data-num="1">1</button>
+          <button data-num="2">2</button>
+          <button data-num="3">3</button>
+          <button data-op="+" class="op">+</button>
+
+          <button data-num="0" class="zero">0</button>
+          <button data-num=".">.</button>
+          <button data-action="equals" class="equals">=</button>
+        </div>
+      </div>
+    </div>
+    <p class="hint">You can also use your keyboard.</p>
+  </main>
+
+  <footer>Web Technologies project – HTML, CSS and JavaScript</footer>
+  <script src="script.js"></script>
+</body>
+</html>
